@@ -1,0 +1,11 @@
+说明：
+com.develop.net包，调用I4接口方法的包，包含调用WebService服务类方法，调用网络连接相关的类的源代码：
+NetCheckReceiver.java：网络连接广播类，继承BroadcastReceiver，重写onReceive()方法，
+													当接到到广播行为时，调用NetConnectionDetector类的isNetworkConnected()方法，判断网络连接状态：
+													当接收到网络连接建立的广播时，使用EventBus框架分发消息，更新UI状态显示；
+													当接收到网络连接失败的广播时，使用EventBus框架分发消息，更新UI状态显示。
+NetConnectionDetector.java：网络连接状态检查类，通过该类实例来调用相关方法，可实现：
+															   判断是否有网络连接建立，判断是否连接上wifi网络，判断是否连接上手机移动网络，
+															   可以获取当前网络的连接类型，可打开手机的设置面板设置网络连接。
+NetEvent.java：网络连接状态标识事件类，该类作为EventBus框架分发事件消息的事件类，通过该类的对象实例的成员变量的值
+								来判断网络连接状态：true：网络连接；false：断开网络连接。

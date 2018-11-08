@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">亨通门禁</string>
+    
+    <string name="action_settings">Settings</string>
+	<string name="net_unavailable">当前网络未连接，请检查设置</string>
+	
+	<string-array name="type">  
+        <item>查询分类</item>  
+        <item>工单查询</item>  
+        <item>状态查询</item>  
+        <item>时限查询</item>  
+	</string-array>
+	
+    <string-array name="languages">
+		<item>一个月前</item>
+		<item>三个月前</item>
+		<item>一年以前</item>
+	</string-array>
+	<string name="location">当前位置</string>
+	
+    <string name="ble_not_supported">BLE is not supported</string>
+    <string name="label_data">Data:</string>
+    <string name="label_device_address">Device address:</string>
+    <string name="label_state">State:</string>
+    <string name="no_data">No data</string>
+    <string name="connected">Connected</string>
+    <string name="disconnected">Disconnected</string>
+    <string name="title_devices">BLE Device Scan</string>
+    <string name="error_bluetooth_not_supported">Bluetooth not supported.</string>
+
+    <string name="unknown_device">Unknown device</string>
+    <string name="unknown_characteristic">Unknown characteristic</string>
+    <string name="unknown_service">Unknown service</string>
+
+    <!-- Menu items -->
+    <string name="menu_connect">Connect</string>
+    <string name="menu_disconnect">Disconnect</string>
+    <string name="menu_scan">Scan</string>
+    <string name="menu_stop">Stop</string>
+	
+</resources>

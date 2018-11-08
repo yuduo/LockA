@@ -1,0 +1,160 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center" >
+
+    <TextView
+        android:id="@+id/Write_Tag_PWD_Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="智能门禁终端管理"
+        android:textColor="#6600ff"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/Order_ID_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/New_Cable_Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="用 户 登 录"
+        android:textColor="#ff0000"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/New_Cable_Note"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    </LinearLayout>
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content" >
+
+         <TextView
+             android:id="@+id/Show_Check_Result"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="  用户名： "
+             android:textAppearance="?android:attr/textAppearanceLarge" />
+
+         <EditText
+             android:id="@+id/User_id"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_weight="1"
+             android:ems="10" >
+
+             <requestFocus />
+         </EditText>
+
+     </LinearLayout>
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content" >
+        
+         <TextView
+            android:id="@+id/Cable_Code_Titel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+     </LinearLayout>
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content" >
+
+         <TextView
+             android:id="@+id/Order_Statu"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text=" 用户密码： "
+             android:textAppearance="?android:attr/textAppearanceLarge" />
+
+         <EditText
+             android:id="@+id/User_PWD"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_weight="1"
+             android:ems="10"
+             android:inputType="textPassword" />
+
+     </LinearLayout>
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:gravity="right" >
+
+         <CheckBox
+             android:id="@+id/checkBox_Show_pwd"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="显示密码  " />
+
+     </LinearLayout>
+     
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content" >
+        
+         <TextView
+            android:id="@+id/New_Cable_Note_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+     </LinearLayout>
+
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:gravity="center" >
+
+         <Button
+             android:id="@+id/Login_Btn"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="  登  录  " />
+
+         <TextView
+             android:id="@+id/textView9"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="        "
+             android:textAppearance="?android:attr/textAppearanceLarge" />
+
+         <Button
+             android:id="@+id/Exit_Btn"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="  退  出  " />
+
+     </LinearLayout>
+
+</LinearLayout>

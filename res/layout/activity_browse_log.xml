@@ -1,0 +1,107 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.fibre.workorder.LayingWorkActivity" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/Order_Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="日志查询"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/Order_ID_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="180dp"
+            android:text="用户"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/red" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:background="@color/blue" >
+        </LinearLayout>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/worklistView"
+        android:layout_width="match_parent"
+        android:layout_height="288dp" >
+
+    </ListView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@color/blue" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/button_Browse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="查 询" />
+
+        <TextView
+            android:id="@+id/Search_text_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="此前"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/bef_Day_Max"
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:text="30" />
+
+
+        <TextView
+            android:id="@+id/Insert_Tag_Note"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="日，到"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/bef_Day_Min"
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:text="7" />
+
+        <TextView
+            android:id="@+id/Search_text_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="日之间  "
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    </LinearLayout>
+
+</LinearLayout>
